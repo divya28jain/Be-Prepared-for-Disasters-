@@ -90,7 +90,7 @@ It helps students visualize diagrams, extinct animals, and 3D scientific models 
 | ![AR Simulation](public/images/s2.jpg) | ![LexAR Model](public/images/s1.jpg) |
 
 ### 🎥 Demo Video  
-https://github.com/divya28jain/Be-Prepared-for-Disasters-/issues/3#issue-3603816899
+https://github.com/user-attachments/assets/23035d92-7147-4a77-bd70-6b081ca74062
 
 ---
 
