@@ -1,66 +1,88 @@
 # 🌍 Be Prepared for Disasters  
-### An AR-Based Disaster Preparedness and Educational Platform  
+### A Web-Based AR Platform for Disaster Preparedness and Education  
 
 ---
 
 ## 🧩 Overview  
-**Be Prepared for Disasters** is an Augmented Reality (AR) based platform that helps students learn how to respond effectively during natural and man-made disasters.  
-The project transforms traditional, poster-based disaster education into interactive AR experiences that make learning engaging, safe, and memorable.  
+**Be Prepared for Disasters** is a **web-based educational platform** powered by **Augmented Reality (AR)** that helps students learn how to respond effectively during natural and man-made disasters.  
+The website transforms traditional, poster-based disaster education into **interactive, gamified simulations** that make learning engaging, safe, and memorable.  
 
-This platform also integrates **LexAR**, an educational AR application that helps students visualize complex textbook diagrams and scientific models in real life — bringing learning to life through Augmented Reality.  
+The platform also integrates **LexAR**, an immersive AR learning app that allows students to visualize complex textbook diagrams and scientific models in their real environment — blending education and technology seamlessly.  
+
+While the main interface is a **website**, users can also **install and access AR-based mobile apps** for extended learning experiences and simulations.  
+
+---
+
+## 💻 Platform Details  
+The **Be Prepared for Disasters** platform is built around the concept of **learning through simulation and interactivity**.  
+It combines **web-based education** with **game-inspired design** and **AR-enhanced modules** to promote awareness, readiness, and engagement among students.  
+
+### 🧰 Web Tools and Technologies  
+- **HTML5 / CSS3 / JavaScript** – Frontend website development  
+- **Node.js** – Backend runtime environment for handling routes, API logic, and integration with AR modules  
+- **Express.js** – Web framework for server-side operations  
+- **Three.js / Unity WebGL** – Integration of 3D/AR visuals and gamified content  
+- **Firebase / Firestore** – Database, user authentication, and progress tracking  
+- **Blender** – Creation of 3D disaster visuals and simulation assets  
+- **Vuforia / ARCore** – AR tracking and real-world model interaction  
+- **GitHub Pages / Vercel** – Hosting and deployment  
+
+### 🧠 Educational Focus  
+The platform uses **gamification principles** (badges, points, and interactive visuals) to keep students engaged, while maintaining an **educational and awareness-driven approach** focused on disaster response and preparedness.  
 
 ---
 
 ## 🚨 Main Module – Be Prepared for Disasters  
 
 ### 🧠 Problem Statement  
-Schools rely on manual drills and static posters to teach disaster preparedness. These methods often fail to engage students and lack practical experience.  
-There is a need for an affordable, immersive, and interactive system that teaches students how to stay safe and calm during emergencies.  
+Schools rely on manual drills and static posters to teach disaster preparedness. These methods often fail to engage students and lack real-life practicality.  
+There is a need for an **interactive website** that makes learning about disaster response **immersive, accessible, and educational**.  
 
 ### 💡 Proposed Solution  
-- AR-based disaster simulations for real-time learning.  
-- Gamified learning with badges, points, and challenges.  
-- Step-by-step visual guidance during emergencies.  
-- Region-specific content for localized disasters (floods, earthquakes, fires, etc.).  
-- Digital drills and readiness tracking dashboards.  
-- Emergency alerts and quick safety information integration.  
+- Web-based AR disaster simulations for real-time learning.  
+- Gamified modules with badges, points, and leaderboard.  
+- Clear safety guidance during each simulation.  
+- Region-specific disaster modules (earthquakes, floods, fires, etc.).  
+- Online dashboard for tracking student readiness and performance.  
+- Integration with mobile apps like **LexAR** for enhanced AR learning.  
 
 ### ✨ Key Features  
-- Interactive AR disaster training modules.  
-- Teacher dashboards to monitor student preparedness.  
-- Low-cost, smartphone-based deployment.  
-- Offline-first design for rural and low-connectivity regions.  
+- Interactive AR disaster drills accessible through the web.  
+- Teacher dashboards for progress monitoring.  
+- Lightweight, responsive, and works across devices.  
+- Optional app installation for more immersive AR use.  
 
 ### ⚙️ Tech Stack  
-- **Unity (AR Foundation)** – AR app development.  
-- **Blender** – Creation of 3D disaster visuals.  
-- **ARCore / Vuforia** – AR tracking and device support.  
-- **Firebase** – Data storage, progress tracking, and dashboards.  
-- **Android / iOS** – Target deployment platforms.  
+- **Frontend:** HTML5, CSS3, JavaScript, Three.js  
+- **Backend:** Node.js, Express.js  
+- **Database:** Firebase / Firestore  
+- **AR Engine:** Unity (AR Foundation), Vuforia, ARCore  
+- **3D Assets:** Blender  
+- **Hosting:** Vercel / GitHub Pages  
 
 ---
 
 ## 🔍 Integrated Module – LexAR (Learn through Augmented Reality)  
 
-**LexAR** is an immersive educational AR app built into the same ecosystem.  
-It helps students visualize diagrams, extinct animals, and 3D scientific models directly from their textbooks.  
+**LexAR** is an integrated educational AR module within the same ecosystem.  
+It allows students to explore science models, extinct animals, and textbook diagrams through real-world AR interaction.  
 
 ### 🧠 Key Features  
-- **Learn from NCERT Diagrams:** Scan textbook diagrams to view 3D interactive models.  
-- **ARLabs:** Place scientific models in real-world space for exploration.  
-- **Real-Size Extinct Animals:** View dinosaurs, mammoths, and more in real scale.  
-- **Touch Interaction:** Rotate, zoom, and move 3D objects intuitively.  
+- **Learn from NCERT Diagrams:** Scan and view 3D interactive models.  
+- **ARLabs:** Place models anywhere in real-world space.  
+- **Real-Size Extinct Animals:** Experience creatures like dinosaurs in real scale.  
+- **Touch Interaction:** Rotate, zoom, and move models freely.  
 
 ### 📚 Use Cases  
-- Classroom learning and revision.  
-- Science exhibitions and live demonstrations.  
-- Self-learning for visual and curious students.  
+- Classroom demonstrations.  
+- Science exhibitions or fairs.  
+- Self-learning and exploration by students.  
 
 ### 🧰 Tech Stack  
-- **Unity 3D** – Game engine for development.  
-- **Vuforia Engine** – Image tracking and recognition.  
-- **C#** – Logic and interactivity scripting.  
-- **Blender / Sketchfab** – 3D model creation.  
+- **Unity 3D** – AR app development  
+- **Vuforia Engine** – Image tracking and recognition  
+- **C#** – Logic and interactivity scripting  
+- **Blender / Sketchfab** – 3D asset creation  
 
 ### 📦 APK Link  
 [📲 Download LexAR APK](https://drive.google.com/file/d/1OXZ9adn-vsilE4PCAIGLc20jWnQP10vp/view?usp=sharing)  
@@ -70,15 +92,15 @@ It helps students visualize diagrams, extinct animals, and 3D scientific models 
 ## 📈 Feasibility and Impact  
 
 ### 🔧 Feasibility  
-- Technically feasible with Unity and AR Foundation.  
-- Works on existing smartphones and tablets.  
-- Low-cost and scalable deployment model.  
+- Technically feasible with Node.js and AR Foundation.  
+- Works on existing web browsers and smartphones.  
+- Cost-effective and scalable deployment.  
 
 ### 🌟 Impact  
-- **Students:** Gain practical disaster response skills and confidence.  
-- **Teachers:** Easily conduct digital safety drills.  
-- **Schools:** Improved readiness and reduced risk during emergencies.  
-- **Society:** Promotes awareness, safety culture, and disaster preparedness.  
+- **Students:** Gain disaster response confidence and awareness.  
+- **Teachers:** Conduct digital drills easily via the website.  
+- **Schools:** Improve safety preparedness and response culture.  
+- **Society:** Foster a proactive mindset toward disaster management.  
 
 ---
 
@@ -90,14 +112,14 @@ It helps students visualize diagrams, extinct animals, and 3D scientific models 
 | ![AR Simulation](public/images/s2.jpg) | ![LexAR Model](public/images/s1.jpg) |
 
 ### 🎥 Demo Video  
-https://github.com/user-attachments/assets/23035d92-7147-4a77-bd70-6b081ca74062
+https://github.com/user-attachments/assets/23035d92-7147-4a77-bd70-6b081ca74062  
 
 ---
 
 ## 👩‍💻 Team  
 | Name | Role |
 |------|------|
-| **Divya Jain** | AR Developer |
+| **Divya Jain** | AR Developer & Node.js Backend Developer |
 | **Kavya Singhal** | 3D Modeler |
 | **Kavya Agrawal** | UI/UX Designer |
 
@@ -105,9 +127,9 @@ https://github.com/user-attachments/assets/23035d92-7147-4a77-bd70-6b081ca74062
 
 ## 🚀 Future Enhancements  
 - AI-based personalized disaster response guidance.  
-- AR multiplayer drills for group training.  
-- Regional language voice support.  
-- Expansion of LexAR to all NCERT subjects.  
+- AR multiplayer drills for collaborative learning.  
+- Regional language voice and text support.  
+- Expansion of LexAR for all NCERT subjects.  
 
 ---
 
@@ -119,5 +141,5 @@ https://github.com/user-attachments/assets/23035d92-7147-4a77-bd70-6b081ca74062
 ---
 
 ## 🏁 Conclusion  
-**Be Prepared for Disasters** is a complete AR-based ecosystem that combines safety training and education into one platform.  
-Through **interactive disaster simulations** and **immersive AR learning (LexAR)**, this project empowers students to be both **safe and smart**, building a generation that is prepared for any challenge.  
+**Be Prepared for Disasters** is a comprehensive **web-based educational ecosystem** that merges safety, awareness, and learning through technology.  
+By combining **interactive web simulations** and **immersive AR learning (LexAR)**, it prepares students to face real-world emergencies confidently — building a generation that is both **informed and ready**.  
