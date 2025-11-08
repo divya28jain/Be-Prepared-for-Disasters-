@@ -87,7 +87,7 @@ It helps students visualize diagrams, extinct animals, and 3D scientific models 
 ### 📸 Screenshots  
 | AR Disaster Simulation | Dashboard | LexAR 3D Model |
 |------------------------|------------|----------------|
-| ![AR Simulation](<image_link>) | ![Dashboard](<image_link>) | ![LexAR Model](<image_link>) |
+| ![AR Simulation](public/images/s2.jpg) | ![LexAR Model](public/images/s1.jpg) |
 
 ### 🎥 Demo Video  
 🎬 [Watch Full Project Demo](public/videos/0001-0250.mp4)  
