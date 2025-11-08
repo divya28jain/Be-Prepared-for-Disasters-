@@ -13,6 +13,51 @@ body.dark-bg {
     pointer-events: none;
     z-index: 0;
 }
+.main-header {
+    width: 100%;
+    background: #14243a;
+    box-shadow: 0 1px 24px #18314b44;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 36px;
+    height: 62px;
+    font-family: 'Orbitron', 'Segoe UI', Arial, sans-serif;
+}
+.brand {
+    color: #38aaff;
+    font-size: 1.4em;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 18px;
+    margin: 0;
+    padding: 0;
+}
+.nav-links li { display: inline; }
+.nav-links a {
+    color: #d9ecff;
+    font-size: 1.07em;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 6px 6px 0 0;
+    transition: background 0.2s, color 0.2s;
+    letter-spacing: 0.04em;
+}
+.nav-links a.active,
+.nav-links a:hover {
+    background: linear-gradient(90deg,#253951 60%,#0099e1ba 100%);
+    color: #79e0f7;
+}
+
 .container.center {
     max-width: 900px;
     margin: 0 auto;
@@ -34,10 +79,10 @@ body.dark-bg {
     font-size: 1.4em;
     color: #96bfff;
     letter-spacing: 0.02em;
-    font-family: 'Orbitron', 'Arial', sans-serif;
     margin-bottom: 1em;
 }
 .desc { color: #b4c8e8; margin-bottom: 2em; font-size: 1.05em; }
+
 .subscribe-form {
     display: flex;
     justify-content: center;
@@ -80,6 +125,7 @@ body.dark-bg {
     text-decoration: none;
 }
 .btn-alt:hover { background: #e7ebee; }
+
 .mission {
     margin: 20px 0 8px 0;
     font-size: 1.18em;
@@ -162,7 +208,14 @@ body.dark-bg {
 }
 .badge-green { background: #3eda92; }
 .badge-blue { background: #367afd; }
-video { border-radius: 14px; margin-top: 10px; box-shadow: 0 2px 16px #2c377c55; }
+video, img {
+    border-radius: 14px;
+    margin-top: 10px;
+    box-shadow: 0 2px 16px #2c377c55;
+    max-width: 100%;
+    background: #131a2c;
+    margin-bottom: 6px;
+}
 
 /* Slider Styles */
 .slider {
