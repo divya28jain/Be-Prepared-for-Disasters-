@@ -90,7 +90,7 @@ It helps students visualize diagrams, extinct animals, and 3D scientific models 
 | ![AR Simulation](<image_link>) | ![Dashboard](<image_link>) | ![LexAR Model](<image_link>) |
 
 ### 🎥 Demo Video  
-🎬 [Watch Full Project Demo](<video_link>)  
+🎬 [Watch Full Project Demo](public/videos/0001-0250.mp4)  
 
 ---
 
