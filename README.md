@@ -12,6 +12,8 @@ The platform also integrates **LexAR**, an immersive AR learning app that allows
 While the main interface is a **website**, users can also **install and access AR-based mobile apps** for extended learning experiences and simulations.  
 ![Website](public/images/Screenshot%202025-11-08%20235452.png)
 
+https://github.com/user-attachments/assets/f0f1c4fa-c391-4f2c-b996-0c2ac1f480b8
+
 ---
 
 ## 💻 Platform Details  
