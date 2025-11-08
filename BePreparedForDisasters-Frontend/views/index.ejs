@@ -4,31 +4,40 @@
     <title>Be Prepared for Disasters - Home</title>
     <link rel="stylesheet" href="/css/style.css">
 </head>
-<body>
-    <div class="container">
-      <header>
-        <h1>Be Prepared for Disasters</h1>
-        <p class="tagline">Empowering students & schools for safe futures</p>
-      </header>
-      <main>
-        <div class="home-cards">
-          <div class="feature-card">
-            <h3>Immersive AR Drills</h3>
-            <p>Experience and practice safety through cutting-edge Augmented Reality simulations for classrooms.</p>
-          </div>
-          <div class="feature-card">
-            <h3>Gamified Preparedness</h3>
-            <p>Collect badges, complete safety missions, and compete in leaderboards.</p>
-          </div>
-        </div>
-        <div class="home-btns">
-            <a href="/features" class="btn-main">Explore Features</a>
-            <a href="/admin" class="btn-alt">Admin Dashboard</a>
-        </div>
-      </main>
-      <footer>
-        <p>&copy; 2025 Be Prepared for Disasters</p>
-      </footer>
+<body class="dark-bg">
+    <div class="overlay"></div>
+    <div class="container center">
+        <header>
+            <h1 class="hero-title">BE PREPARED FOR DISASTERS</h1>
+            <h2 class="hero-sub">Empower safety with immersive strategic technology</h2>
+            <p class="desc">
+                Prepare schools and students with AR-based disaster simulations, engaging gamified learning, and real-time emergency tools.
+            </p>
+        </header>
+        <form class="subscribe-form">
+            <input type="email" placeholder="Enter your email" class="input-main" />
+            <button class="btn-main">Get Started</button>
+        </form>
     </div>
+    <div class="dashboard-section">
+        <div class="dashboard-card glass">
+            <h3>Flood Simulation</h3>
+            <video width="100%" controls>
+                <source src="/videos/flood_classroom.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="dashboard-card glass">
+            <h3>Preparedness Score</h3>
+            <div class="stat"><span>87%</span> Ready</div>
+        </div>
+        <div class="dashboard-card glass">
+            <h3>Drills Completed</h3>
+            <div class="stat"><span>12</span> This month</div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Be Prepared for Disasters</p>
+    </footer>
 </body>
 </html>
