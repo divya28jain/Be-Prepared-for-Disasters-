@@ -10,7 +10,7 @@ The website transforms traditional, poster-based disaster education into **inter
 The platform also integrates **LexAR**, an immersive AR learning app that allows students to visualize complex textbook diagrams and scientific models in their real environment — blending education and technology seamlessly.  
 
 While the main interface is a **website**, users can also **install and access AR-based mobile apps** for extended learning experiences and simulations.  
-
+public/images/Screenshot 2025-11-08 235452.png
 ---
 
 ## 💻 Platform Details  
