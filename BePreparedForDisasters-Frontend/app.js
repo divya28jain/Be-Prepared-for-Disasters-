@@ -10,4 +10,3 @@ app.get('/admin', (req, res) => res.render('admin'));
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`Be Prepared for Disasters frontend running on port ${PORT}`));
-
