@@ -1,7 +1,7 @@
 {
   "name": "be-prepared-for-disasters-frontend",
   "version": "1.0.0",
-  "description": "Frontend for Be Prepared for Disasters - Disaster Management Education",
+  "description": "Modern frontend for Be Prepared for Disasters - Disaster Management Education",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
