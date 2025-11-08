@@ -1,1 +1,5 @@
-
+body { font-family: Arial, sans-serif; background: #f2f5fa; padding: 30px; }
+h1, h2 { color: #20639b; }
+a { display: inline-block; margin: 10px 0; color: #3687bf; text-decoration: none; }
+ul { list-style: circle; }
+button { background: #20639b; color: white; border: none; padding: 8px 18px; border-radius: 5px; cursor: not-allowed;}
