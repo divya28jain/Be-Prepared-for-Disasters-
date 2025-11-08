@@ -10,10 +10,16 @@
     <div class="container center">
         <header>
             <h1 class="hero-title">BE PREPARED FOR DISASTERS</h1>
-            <div class="mission">
-                <p>AR & 3D disaster scenarios for all classrooms.</p>
-                <p>Gamified and practical preparedness drills.</p>
-                <p>Empower schools, teachers, and students for real emergencies.</p>
+            <!-- Dropdown Mission Section -->
+            <div class="dropdown-section">
+                <button class="dropdown-btn" onclick="toggleDropdown()">Show Project Mission &#9660;</button>
+                <div class="dropdown-content" id="missionDrop">
+                    <ul>
+                        <li>AR & 3D disaster scenarios for all classrooms.</li>
+                        <li>Gamified and practical preparedness drills.</li>
+                        <li>Empower schools, teachers, and students for real emergencies.</li>
+                    </ul>
+                </div>
             </div>
             <h2 class="hero-sub">Empower safety with immersive strategic technology</h2>
             <p class="desc">
@@ -24,6 +30,25 @@
             <input type="email" placeholder="Enter your email" class="input-main" />
             <button class="btn-main">Get Started</button>
         </form>
+        <!-- Feature Slider Section -->
+        <div class="slider">
+            <button class="slider-btn" onclick="slide(-1)">&#8592;</button>
+            <div class="slider-content" id="sliderContent">
+                <div>
+                    <h3>AR-based Simulations</h3>
+                    <p>Immersive disaster scenarios inside your classroom using AR and 3D.</p>
+                </div>
+                <div>
+                    <h3>Gamified Learning</h3>
+                    <p>Earn badges, complete missions, and top the school safety leaderboard.</p>
+                </div>
+                <div>
+                    <h3>Emergency Alerts</h3>
+                    <p>Get real-time, actionable help and drill reminders instantly.</p>
+                </div>
+            </div>
+            <button class="slider-btn" onclick="slide(1)">&#8594;</button>
+        </div>
     </div>
     <div class="dashboard-section">
         <div class="dashboard-card glass">
@@ -38,5 +63,24 @@
     <footer>
         <p>&copy; 2025 Be Prepared for Disasters</p>
     </footer>
+    <script>
+    // Dropdown JS
+    function toggleDropdown() {
+        var el = document.getElementById('missionDrop');
+        el.style.display = (el.style.display === 'block') ? 'none' : 'block';
+    }
+    // Slider JS
+    let slideIdx = 0;
+    function showSlide(idx) {
+        const slides = document.querySelectorAll('#sliderContent > div');
+        slides.forEach((s,i) => s.style.display = (i === idx ? 'block' : 'none'));
+    }
+    function slide(n) {
+        const slides = document.querySelectorAll('#sliderContent > div');
+        slideIdx = (slideIdx + n + slides.length) % slides.length;
+        showSlide(slideIdx);
+    }
+    document.addEventListener('DOMContentLoaded', ()=>showSlide(slideIdx));
+    </script>
 </body>
 </html>
