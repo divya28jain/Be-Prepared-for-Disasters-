@@ -1,7 +1,94 @@
-body { font-family: Arial, sans-serif; background: #f2f5fa; padding: 30px; }
-h1, h2 { color: #20639b; }
-a { display: inline-block; margin: 10px 0; color: #3687bf; text-decoration: none; }
-ul { list-style: circle; }
-button { background: #20639b; color: white; border: none; padding: 8px 18px; border-radius: 5px; cursor: not-allowed;}
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f2f6f9;
+  margin: 0;
+  color: #25405b;
+}
 
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 32px rgba(50,70,140,0.09);
+  overflow: hidden;
+  padding: 0 30px 30px 30px;
+}
 
+header {
+  background: linear-gradient(90deg, #37a6ff 30%, #61f2c2 100%);
+  color: #fff;
+  padding: 36px 0 18px 0;
+  border-radius: 0 0 32px 32px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 15px 0 0 0;
+  font-size: 15px;
+  color: #888;
+}
+
+h1, h2, h3 {
+  margin-top: 0.7em;
+  margin-bottom: 0.3em;
+  font-weight: 700;
+}
+h1 { font-size: 2.4em; }
+h2 { font-size: 1.6em; }
+h3 { font-size: 1.2em; }
+
+.tagline {font-size: 1.15em; margin: 0 0 12px 0;}
+
+.home-cards, .features-list {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  margin: 24px 0;
+}
+
+.feature-card {
+  background: #f7fcff;
+  border-radius: 12px;
+  box-shadow: 0 1px 6px rgba(60,105,220,0.06);
+  padding: 22px;
+  margin-bottom: 12px;
+  flex: 1 1 310px;
+  max-width: 375px;
+}
+
+.btn-main, .btn-alt {
+  display: inline-block;
+  padding: 12px 26px;
+  border-radius: 8px;
+  margin: 12px 8px 0 0;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+}
+.btn-main {
+  background: #38a6ff;
+  color: #fff;
+  border: none;
+  transition: background 0.2s;
+}
+.btn-main:hover { background: #006aff; }
+.btn-alt {
+  background: #f0f6fc;
+  color: #2a4d79;
+  border: 1px solid #38a6ff;
+}
+.btn-alt:hover { background: #e7ebee; }
+
+.badge {
+  background: #38a6ff;
+  color: #fff;
+  border-radius: 6px;
+  padding: 0.25em 0.6em;
+  font-size: 0.95em;
+  font-weight: 500;
+}
+.badge-green { background: #3eda92; }
+.badge-blue { background: #367afd; }
