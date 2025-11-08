@@ -97,8 +97,9 @@ It helps students visualize diagrams, extinct animals, and 3D scientific models 
 ## 👩‍💻 Team  
 | Name | Role |
 |------|------|
-| **Divya Jain** | AR Developer & UI/UX Designer |
-| *(Add other teammates with their respective roles)* | |
+| **Divya Jain** | AR Developer |
+| **Kavya Singhal** | 3D Modeler |
+| **Kavya Agrawal** | UI/UX Designer |
 
 ---
 
